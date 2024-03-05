@@ -14,16 +14,23 @@
   background-repeat: no-repeat;
 }
 
+.header__content {
+  box-sizing: border-box;
+  margin: 183px 0 0;
+}
+
 .header__title {
   max-width: 660px;
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
   font-weight: 500;
-  margin: 183px 0 0;
   font-size: 60px;
   line-height: 72px;
   letter-spacing: 0.6px;
 }
 
-.header__title_span-accent {
+.header__span-accent {
   display: block;
   color: #2f80ed;
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -36,6 +43,7 @@
 .header__description {
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
@@ -62,40 +70,6 @@
   box-sizing: border-box;
 }
 
-.header__schedule {
+.header__paragraph {
   margin-bottom: 0;
-}
-
-.header__address {
-  margin-bottom: 0;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav__logo {
-  width: 105px;
-  height: 39px;
-  margin: 30px 0px 0px;
-}
-
-.nav__links {
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  gap: 20px;
-  list-style-type: none;
-  margin: 30px 0 0;
-}
-
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.nav__link:hover {
-  color: #2f80ed;
 }
